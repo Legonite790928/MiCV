@@ -1,0 +1,133 @@
+
+
+/* Reinicia los márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece el color de fondo y los estilos de fuente */
+body {
+    background-color: #e0d2d2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    /* background-image: url(/fondo.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    
+}
+#particles-js {
+    width: 100%;
+    height: 300px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Estilos de las secciones */
+/* section {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+} */
+section {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+    margin: 2rem auto; /* Centra horizontalmente */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limita el ancho máximo */
+    padding-left: 20px; /* Agrega padding izquierdo */
+    padding-right: 20px; /* Agrega padding derecho */
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilos de los artículos */
+article {
+    margin-bottom: 1.5rem;
+}
+
+article h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+article p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Ajusta los estilos para pantallas más pequeñas */
+    header h1 {
+        font-size: 1.5rem;
+    }
+    section {
+        margin: 1rem auto;
+    }
+    article h3 {
+        font-size: 1rem;
+    }
+}
+/* styles.css */
+
+/* Reinicia los márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece el color de fondo y los estilos de fuente */
+/* ... (código CSS anterior) ... */
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Ajusta los estilos para pantallas más pequeñas */
+    /* ... (código CSS anterior) ... */
+}
+
